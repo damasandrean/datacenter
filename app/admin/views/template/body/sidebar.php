@@ -81,7 +81,7 @@
                                     } else {
                                         echo 'style="display:none"';
                                     } ?>>
-                <a href="<?php echo base_url() . index_page(); ?>kegiatan/kegiatan_today">
+                <a href="#" data-toggle="modal" data-target="#add-kegiatan-show">
                     <i class="nav-icon i-ID-Card"></i>
                     <span class="item-name">Tambah Kegiatan Hari Ini</span>
                 </a>

@@ -313,3 +313,52 @@
 
     </div>
 </div>
+
+<div id="add-kegiatan-show" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body" style="padding: 3%">
+                <div>
+                    <center>
+                        <h2 class="text-popins">Laporan Kegiatan</h2>
+                    </center>
+                </div>
+                <div style="margin-top: 3%"></div>
+                <div>
+                    <label>Nama Petugas 1</label>
+                    <select class="form-control" id="petugas_satu"></select>
+                </div>
+
+                <div style="margin-top: 3%"></div>
+                <div>
+                    <label>Nama Petugas 2</label>
+                    <input type="text" class="form-control" id="petugas_dua">
+                </div>
+                <div style="margin-top: 3%"></div>
+                <div>
+                    <label>Kegiatan</label>
+                    <div>
+                        <table class="table table-bordered" id="list_kegiatan">
+                        </table>
+                    </div>
+                </div>
+                <div style="margin-top: 3%"></div>
+                <div>
+                    <label>Keterangan</label>
+                    <textarea id="keterangan" class="form-control"></textarea>
+                </div>
+                <div style="margin-top: 3%"></div>
+                <div>
+                    <div class="row">
+                        <div class="col-12" style="text-align: right;">
+                            <button class="btn btn-primary ">Laporkan Kegiatan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
