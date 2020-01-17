@@ -22,6 +22,8 @@
                     <input type="text" name="" id='edit_id_petugas' class="form-control" placeholder="Masukkan Nama disini">
                 </div>
                 <div style="margin-top: 3%"></div>
+
+
                 <div>
                     <div class="row">
                         <div class="col-12" style="text-align: right;">
@@ -85,7 +87,7 @@
                     <input type="text" name="" id='edit_username' class="form-control" placeholder="Masukkan Nama disini">
                 </div>
 
-                 <div style="margin-top: 3%"></div>
+                <div style="margin-top: 3%"></div>
                 <div>
                     <label>Password</label>
                     <input type="text" name="" id='edit_password' class="form-control" placeholder="Masukkan Nama disini">
@@ -96,6 +98,14 @@
                     <input type="text" name="" id='edit_id_user' class="form-control" placeholder="Masukkan Nama disini">
                 </div>
                 <div style="margin-top: 3%"></div>
+
+                <div style="margin-top: 3%"></div>
+                <div>
+                    <label>Hak Akses</label>
+                    <select class="form-control" id="edit_select_level"></select>
+                </div>
+
+
                 <div>
                     <div class="row">
                         <div class="col-12" style="text-align: right;">
@@ -121,16 +131,23 @@
                     </center>
                 </div>
                 <div style="margin-top: 3%"></div>
-               <div>
+                <div>
                     <label>Username</label>
                     <input type="text" name="" id='username' class="form-control" placeholder="Masukkan Nama disini">
                 </div>
 
-                 <div style="margin-top: 3%"></div>
+                <div style="margin-top: 3%"></div>
                 <div>
                     <label>Password</label>
                     <input type="text" name="" id='password' class="form-control" placeholder="Masukkan Nama disini">
                 </div>
+
+                <div style="margin-top: 3%"></div>
+                <div>
+                    <label>Hak Akses</label>
+                    <select class="form-control" id="select_level"></select>
+                </div>
+                <br>
                 <div>
                     <div class="row">
                         <div class="col-12" style="text-align: right;">
@@ -163,8 +180,8 @@
                 <div>
                     <label>Nama</label>
                     <input type="text" name="" id='edit_kegiatan' class="form-control" placeholder="Masukkan Nama disini">
-                </div> 
-                 <div style="display: none">
+                </div>
+                <div style="display: none">
                     <label>Nama</label>
                     <input type="text" name="" id='edit_id_kegiatan' class="form-control" placeholder="Masukkan Nama disini">
                 </div>
@@ -194,7 +211,7 @@
                     </center>
                 </div>
                 <div style="margin-top: 3%"></div>
-               <div>
+                <div>
                     <label>Nama kegiatan</label>
                     <input type="text" name="" id='nama_kegiatan' class="form-control" placeholder="Masukkan Nama disini">
                 </div>
@@ -213,4 +230,86 @@
 <!-- end admin modal side -->
 
 
+<div id="add-level" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
 
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body" style="padding: 3%">
+                <div>
+                    <center>
+                        <h2 class="text-popins">Tambah Level</h2>
+                    </center>
+                </div>
+                <div style="margin-top: 3%"></div>
+                <div>
+                    <label>Nama level</label>
+                    <input type="text" name="" id="name_level" class="form-control" placeholder="Masukkan Nama disini">
+                </div>
+                <div style="margin-top: 3%"></div>
+                <div>
+                    <label>Akses</label>
+                    <div>
+                        <table class="table table-bordered" id="list_menu">
+                        </table>
+                    </div>
+                </div>
+                <div style="display: none">
+                    <input type="text" name="" id="akses" name="akses">
+                </div>
+                <div style="margin-top: 3%"></div>
+                <div>
+                    <div class="row">
+                        <div class="col-12" style="text-align: right;">
+                            <button class="btn btn-primary " onclick="ajax_action_add_level()">Tambah Data</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div id="edit-level" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body" style="padding: 3%">
+                <div>
+                    <center>
+                        <h2 class="text-popins">Edit Level</h2>
+                    </center>
+                </div>
+                <div style="margin-top: 3%"></div>
+                <div>
+                    <label>Nama level</label>
+                    <input type="text" name="" id="edit_name_level" class="form-control" placeholder="Masukkan Nama disini">
+                </div>
+                <div style="margin-top: 3%"></div>
+                <div>
+                    <label>Akses</label>
+                    <div>
+                        <table class="table table-bordered" id="edit_list_menu">
+                        </table>
+                    </div>
+                </div>
+                <div style="display: none">
+                    <input type="text" name="" class="form-control" id="edit_akses" name="edit_akses">
+                    <input type="text" name="" class="form-control" id="edit_id_level" name="edit_id_level">
+                </div>
+                <div style="margin-top: 3%"></div>
+                <div>
+                    <div class="row">
+                        <div class="col-12" style="text-align: right;">
+                            <button class="btn btn-primary " onclick="ajax_action_edit_level()">Edit Data</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

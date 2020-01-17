@@ -89,4 +89,3 @@ class Laporan extends MY_Controller
 
     
 }
-?>
