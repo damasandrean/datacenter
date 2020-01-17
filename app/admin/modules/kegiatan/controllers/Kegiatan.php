@@ -207,4 +207,28 @@ class Kegiatan extends MY_Controller
 			print json_encode($json_data);
 		}
 	}
+	function ajax_action_get_kegiatan_all()
+	{
+		$data = $this->M_kegiatan->fetch_table('*', 'tbl_kegiatan', '', '', '', 0, 0, TRUE);
+
+		if (count($data) == 0) {
+			$json_data =  array(
+				"result" => FALSE,
+				"message" => array('head' => 'Failed', 'body' => 'Gagal mengambil Data'),
+				"form_error" => '',
+				"redirect" => ''
+			);
+			print json_encode($json_data);
+			die();
+		} else {
+			$json_data =  array(
+				"result" => TRUE,
+				"message" => array('head' => 'Success', 'body' => 'Sukses mengambil Data'),
+				"form_error" => '',
+				"redirect" => '',
+				"data" => $data
+			);
+			print json_encode($json_data);
+		}
+	}
 }

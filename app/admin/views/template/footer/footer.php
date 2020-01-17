@@ -1,4 +1,4 @@
- <script src="<?php echo base_url(); ?>assets/admin/ajaxFunction.js"></script>
+<script src="<?php echo base_url(); ?>assets/admin/ajaxFunction.js"></script>
 <script src="<?php echo base_url(); ?>assets/admin/js/vendor/bootstrap.bundle.min.js "></script>
 <script src="<?php echo base_url(); ?>assets/admin/js/vendor/perfect-scrollbar.min.js "></script>
 <script src="<?php echo base_url(); ?>assets/admin/js/vendor/echarts.min.js "></script>
@@ -11,10 +11,10 @@
 
 <script src="<?php echo base_url(); ?>assets/admin/js/es5/sidebar.large.script.min.js"></script>
 </body>
-   <script type="text/javascript">
-    $(document).ready(function() {
-    	$('.select2').select2();
-    });
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.select2').select2();
+  });
 </script>
 
 <script>

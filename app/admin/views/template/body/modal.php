@@ -353,7 +353,7 @@
                 <div>
                     <div class="row">
                         <div class="col-12" style="text-align: right;">
-                            <button class="btn btn-primary ">Laporkan Kegiatan</button>
+                            <button class="btn btn-primary " onclick="action_simpan_kegiatan()">Laporkan Kegiatan</button>
                         </div>
                     </div>
                 </div>

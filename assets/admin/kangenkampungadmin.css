@@ -18,7 +18,7 @@
     margin-left: 5%;margin-right: 5%;margin-top: 2%;
 }
 .background-primary-active{
-    background: #b5d33b;
+    background: #003473;
 }
 
 .background-primary-deactive{
@@ -135,7 +135,7 @@
 }
 
 .navbar-contact:hover{
-    color: #b5d33b;
+    color: #003473;
 }
 
 
@@ -143,7 +143,7 @@
 }
 
 .text:hover{
-    color: #b5d33b;
+    color: #003473;
 }
 
 
@@ -224,11 +224,11 @@
 }
 
 .navbar-login:hover{
-      color: #b5d33b;
+      color: #003473;
 }
 
 .navbar-daftar:hover{
-      color: #b5d33b;
+      color: #003473;
 }
 
 .navbar-body{
@@ -256,11 +256,11 @@
 }
 
 .primary-color{
-	color: #b5d33b;
+	color: #003473;
 }
 
 .background-primary-color{
-    background: #b5d33b;
+    background: #003473;
 }
 
 .search-box{
@@ -335,7 +335,7 @@
 }
 .search-icon:hover{
     border-left: none!important;
-    color:  #b5d33b!important;
+    color:  #003473!important;
     background: transparent!important;
     border-top-right-radius: 6px!important;
     border-bottom-right-radius: 6px!important;
@@ -448,7 +448,7 @@ font-size: 88%;color: #43554f;
     font-size: 16px;
     font-weight: bold;
     text-align: left;
-    color: #b5d33b;
+    color: #003473;
 }
 
 .location-item{
@@ -756,7 +756,7 @@ label,p,span,input,button{
 
 .body-catatan-toko{
    text-align: left;
-   color: #b5d33b;
+   color: #003473;
 }
 
 .detail-pengiriman-toko{
@@ -775,7 +775,7 @@ label,p,span,input,button{
 .detail-price{
     font-size: 30px;
     font-weight: 700;
-    color: #b5d33b;
+    color: #003473;
 }
 
 .order-min-button {
@@ -2973,7 +2973,7 @@ label,p,span,input,button{
 
 .body-catatan-toko{
    text-align: left;
-   color: #b5d33b;
+   color: #003473;
 }
 
 .detail-pengiriman-toko{
@@ -2992,7 +2992,7 @@ label,p,span,input,button{
 .detail-price{
     font-size: 30px;
     font-weight: 700;
-    color: #b5d33b;
+    color: #003473;
 }
 
 .order-min-button {
